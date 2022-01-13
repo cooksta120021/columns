@@ -14,7 +14,7 @@ public class Columns {
 
         // Calls input from writer and creates new lines
         String line = reader.lines().collect(Collectors.joining(System.lineSeparator()));
-        System.out.println(line); // Reads file
+        System.out.println(line +"\n"); // Reads file
         reader.close();
     }
 }
