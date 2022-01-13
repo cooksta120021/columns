@@ -14,8 +14,10 @@ public class Columns {
 
         // Calls input from writer and creates new lines
         String line = reader.lines().collect(Collectors.joining(System.lineSeparator()));
-        System.out.println(line +"\n"); // Reads file
+        System.out.println(String.format("%-30s %s", line)); // Reads file
         reader.close();
+
+       // String.format("%-30s %s", line);
     }
 }
 
