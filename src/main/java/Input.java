@@ -2,7 +2,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-
+//IGNORE THIS CODE
 public class Input {
     public static void main(String[] args) {
         // added scanner for user input
