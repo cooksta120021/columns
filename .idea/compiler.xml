@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="columns" target="5" />
+      <module name="columns" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
